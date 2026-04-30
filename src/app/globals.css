@@ -1,26 +1,155 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Palette — The Almanac */
+  --color-bone: #f4efe6;
+  --color-bone-soft: #ede5d2;
+  --color-bone-deep: #e3d9c3;
+  --color-ink: #1a1a17;
+  --color-ink-soft: #3c3c36;
+  --color-ink-mute: #6e6e63;
+  --color-moss: #2d3f2a;
+  --color-moss-deep: #1f2d1c;
+  --color-amber: #b8541f;
+  --color-amber-soft: #c2693a;
+
+  /* Fonts (mapped from next/font runtime variables) */
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-manrope);
+  --font-mono: var(--font-jet);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --grain-opacity: 0.045;
+  --rule-color: color-mix(in srgb, var(--color-ink) 18%, transparent);
+  --rule-color-strong: color-mix(in srgb, var(--color-ink) 35%, transparent);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  background: var(--color-bone);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bone);
+  color: var(--color-ink);
+  position: relative;
+  font-feature-settings: "ss01", "cv11";
+}
+
+/* Paper grain — fixed overlay across the whole site */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: var(--grain-opacity);
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.92' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.85 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  background-size: 240px 240px;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-moss);
+  color: var(--color-bone);
+}
+
+/* Editorial helpers */
+.text-balance { text-wrap: balance; }
+.text-pretty { text-wrap: pretty; }
+
+.rule { border-top: 1px solid var(--rule-color); }
+.rule-strong { border-top: 1px solid var(--rule-color-strong); }
+
+/* Drop cap — burnt amber, oversized serif */
+.dropcap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 5.2em;
+  float: left;
+  line-height: 0.85;
+  margin-right: 0.1em;
+  margin-top: 0.05em;
+  color: var(--color-amber);
+  font-feature-settings: "ss01";
+}
+
+/* Optical-size leveraging for Fraunces at display sizes */
+.fraunces-display {
+  font-variation-settings: "opsz" 144;
+}
+.fraunces-text {
+  font-variation-settings: "opsz" 14;
+}
+
+/* Marquee numbers — slightly smaller cap height correction */
+.numeral {
+  font-family: var(--font-display);
+  font-feature-settings: "lnum", "ss01";
+  font-variation-settings: "opsz" 144;
+}
+
+/* Stagger reveal animation */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.rise {
+  opacity: 0;
+  animation: rise 1.2s cubic-bezier(0.16, 0.84, 0.24, 1) forwards;
+  will-change: opacity, transform;
+}
+.fade {
+  opacity: 0;
+  animation: fade 1.6s ease-out forwards;
+}
+.delay-1 { animation-delay: 0.05s; }
+.delay-2 { animation-delay: 0.18s; }
+.delay-3 { animation-delay: 0.34s; }
+.delay-4 { animation-delay: 0.5s; }
+.delay-5 { animation-delay: 0.7s; }
+.delay-6 { animation-delay: 0.95s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .rise, .fade {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+  html { scroll-behavior: auto; }
+}
+
+/* Subtle link underline-on-hover (editorial) */
+.link-rule {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.55s cubic-bezier(0.16, 0.84, 0.24, 1);
+}
+.link-rule:hover {
+  background-size: 100% 1px;
 }
