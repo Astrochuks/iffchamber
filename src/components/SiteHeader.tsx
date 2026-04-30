@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { Wordmark } from "./Wordmark";
 
 const NAV = [
+  { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Practice", href: "/what-we-do" },
   { label: "Sectors", href: "/who-we-serve" },
@@ -57,14 +58,14 @@ export function SiteHeader() {
                   href={item.href}
                   aria-current={active ? "page" : undefined}
                   className={`relative font-mono text-[10.5px] uppercase tracking-[0.22em] transition-colors duration-300 ${
-                    active ? "text-moss" : "text-ink hover:text-moss"
+                    active ? "text-amber" : "text-ink hover:text-moss"
                   }`}
                 >
                   {item.label}
                   {active && (
                     <span
                       aria-hidden
-                      className="absolute left-0 right-0 -bottom-2 h-px bg-moss"
+                      className="absolute left-0 right-0 -bottom-2 h-px bg-amber"
                     />
                   )}
                 </Link>
@@ -123,7 +124,7 @@ export function SiteHeader() {
                   tabIndex={open ? 0 : -1}
                   aria-current={active ? "page" : undefined}
                   className={`py-4 font-display font-medium leading-[1.02] tracking-[-0.02em] border-b border-ink/10 transition-all duration-500 ease-out ${
-                    active ? "text-moss" : "text-ink"
+                    active ? "text-amber" : "text-ink"
                   } ${open ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3"}`}
                   style={{
                     fontSize: "clamp(2rem, 9vw, 2.75rem)",
@@ -131,7 +132,7 @@ export function SiteHeader() {
                   }}
                 >
                   <span className="inline-flex items-baseline gap-3">
-                    <span className={`font-mono text-[10px] uppercase tracking-[0.2em] font-normal ${active ? "text-moss" : "text-amber"}`}>
+                    <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-amber font-normal">
                       0{i + 1}
                     </span>
                     {item.label}
