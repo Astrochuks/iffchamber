@@ -6,7 +6,7 @@ import { ClosingCTA } from "@/components/ClosingCTA";
 export const metadata: Metadata = {
   title: "Insights — IFF CHAMBER",
   description:
-    "Research, briefs, field notes, and positions from IFF CHAMBER. Our publications are a public good — freely available to the field.",
+    "Research, briefs, field notes, and positions from IFF CHAMBER. Our publications are a public good, freely available to the field.",
 };
 
 export default function InsightsPage() {
@@ -42,7 +42,7 @@ export default function InsightsPage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.75rem)" }}
           >
-            Research, briefs, positions, and essays on the systems that feed us. Published freely — because the field advances when knowledge is shared, not hoarded.
+            Research, briefs, positions, and essays on the systems that feed us. Published freely, because the field advances when knowledge is shared, not hoarded.
           </p>
         </div>
       </section>
@@ -116,7 +116,7 @@ export default function InsightsPage() {
               <span className="italic text-moss">email.</span>
             </h2>
             <p className="mt-6 font-body text-[17px] md:text-[18.5px] leading-[1.65] text-ink-soft max-w-2xl text-pretty">
-              A monthly digest of what we've published, what we're working on, and the questions we're chasing. No promotions, no forwarded emails — just research.
+              A monthly digest of what we've published, what we're working on, and the questions we're chasing. No promotions, no forwarded emails. Just research.
             </p>
 
             <form className="mt-10 max-w-xl">
@@ -155,7 +155,7 @@ const INSIGHTS = [
     category: "Field Note",
     date: "Forthcoming",
     title: "The lever in plain sight: why food is the most under-used development tool of the century.",
-    dek: "A founding essay on why nations that build durable food systems unlock everything else — health, employment, climate, security.",
+    dek: "A founding essay on why nations that build durable food systems unlock everything else: health, employment, climate, security.",
     author: "Founding editorial",
     readTime: "12 min read",
   },
@@ -163,7 +163,7 @@ const INSIGHTS = [
     category: "Brief",
     date: "Forthcoming",
     title: "Smallholders, supply chains, and the economics of resilience.",
-    dek: "How distributed food production becomes the backbone of national food security — and what advisors get wrong about it.",
+    dek: "How distributed food production becomes the backbone of national food security, and what advisors get wrong about it.",
     author: "Food Security practice",
     readTime: "8 min read",
   },
@@ -171,7 +171,7 @@ const INSIGHTS = [
     category: "Position",
     date: "Forthcoming",
     title: "Beyond regenerative: a framework for measuring food's climate dividend.",
-    dek: "Carbon, water, biodiversity, soil — a unified accounting for the climate value of well-designed food systems.",
+    dek: "Carbon, water, biodiversity, soil: a unified accounting for the climate value of well-designed food systems.",
     author: "Climate practice",
     readTime: "14 min read",
   },
@@ -179,14 +179,14 @@ const INSIGHTS = [
     category: "Essay",
     date: "Forthcoming",
     title: "The first economic act: nutrition, employment, and the long arc of food as human development.",
-    dek: "Why we argue food is the most under-served human-capital investment on earth — and what that implies for ministries, foundations, and DFIs.",
+    dek: "Why we argue food is the most under-served human-capital investment on earth, and what that implies for ministries, foundations, and DFIs.",
     author: "Human Capital practice",
     readTime: "16 min read",
   },
   {
     category: "Research",
     date: "Forthcoming",
-    title: "Five myths about agricultural subsidies — and what the next generation of food policy actually needs.",
+    title: "Five myths about agricultural subsidies, and what the next generation of food policy actually needs.",
     dek: "A working paper on subsidy reform for food security and sustainability, drawn from a review of two decades of national policy experiments.",
     author: "Research partnerships",
     readTime: "22 min read",
@@ -194,7 +194,7 @@ const INSIGHTS = [
   {
     category: "Brief",
     date: "Forthcoming",
-    title: "What a post-harvest strategy actually costs — and what it buys.",
+    title: "What a post-harvest strategy actually costs, and what it buys.",
     dek: "An instrument-level brief for ministries and DFIs weighing investments in storage, logistics, and cold chain as national food-security infrastructure.",
     author: "Food Security practice",
     readTime: "9 min read",
@@ -211,7 +211,7 @@ const INSIGHTS = [
     category: "Position",
     date: "Forthcoming",
     title: "Food reserves in a warming world: reviving an old instrument for a new era.",
-    dek: "The case for strategic national food reserves as a climate-adaptation and food-security instrument — and how to design them well.",
+    dek: "The case for strategic national food reserves as a climate-adaptation and food-security instrument, and how to design them well.",
     author: "Food Security & Climate",
     readTime: "13 min read",
   },
@@ -219,7 +219,7 @@ const INSIGHTS = [
     category: "Essay",
     date: "Forthcoming",
     title: "Leaving no industry behind: a case for cross-sector food system advisory.",
-    dek: "Why the most durable food-system work happens at the intersection of public, private, and civil-society institutions — and what it takes to work across them.",
+    dek: "Why the most durable food-system work happens at the intersection of public, private, and civil-society institutions, and what it takes to work across them.",
     author: "Founding editorial",
     readTime: "11 min read",
   },

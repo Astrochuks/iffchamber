@@ -42,7 +42,7 @@ export default function ImpactPage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.75rem)" }}
           >
-            IFF CHAMBER measures impact at the scale of systems, over a ten-year horizon. Selected engagements, outcomes, and the measurements that matter — published transparently.
+            IFF CHAMBER measures impact at the scale of systems, over a ten-year horizon. Selected engagements, outcomes, and the measurements that matter, published transparently.
           </p>
         </div>
       </section>
@@ -62,12 +62,12 @@ export default function ImpactPage() {
               className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance text-bone"
               style={{ fontSize: "clamp(1.85rem, 4.2vw, 3rem)" }}
             >
-              Count what matters —{" "}
+              Count what matters,{" "}
               <span className="italic text-amber">not what's easy.</span>
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-bone/80 text-pretty max-w-3xl">
               <p>
-                Every consultancy can report activities. Hours logged, reports delivered, workshops run. Those are inputs, not impact. We report the system-level outcomes our engagements were actually commissioned to move — and we report them honestly, including the ones that did not work.
+                Every consultancy can report activities. Hours logged, reports delivered, workshops run. Those are inputs, not impact. We report the system-level outcomes our engagements were actually commissioned to move, and we report them honestly, including the ones that did not work.
               </p>
               <p>
                 Our standard horizon is ten years. Food-system change does not happen in quarters; the institutions we build take seasons, not sprints, to prove their value. We measure accordingly.
@@ -93,7 +93,7 @@ export default function ImpactPage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.015em] text-balance"
                 style={{ fontSize: "clamp(1.75rem, 3.8vw, 2.5rem)" }}
               >
-                The chamber — at a{" "}
+                The chamber, at a{" "}
                 <span className="italic text-moss">glance.</span>
               </h2>
             </div>
@@ -136,7 +136,7 @@ export default function ImpactPage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
                 style={{ fontSize: "clamp(2rem, 4.5vw, 3.25rem)" }}
               >
-                Selected engagements —{" "}
+                Selected engagements,{" "}
                 <span className="italic text-moss">first published cohort.</span>
               </h2>
               <p className="mt-6 font-body text-[17px] leading-[1.6] text-ink-soft max-w-2xl text-pretty">
@@ -221,7 +221,7 @@ export default function ImpactPage() {
 }
 
 const METRICS = [
-  { value: "03", label: "Practices", body: "Food security, human capital, climate — one integrated lens." },
+  { value: "03", label: "Practices", body: "Food security, human capital, climate: one integrated lens." },
   { value: "06", label: "Sectors served", body: "Governments, multilaterals, DFIs, foundations, corporates, civil society." },
   { value: "10yr", label: "Measurement horizon", body: "The minimum time scale at which food-system change becomes legible." },
   { value: "100%", label: "Research published", body: "Every paper, brief, and framework we produce is released publicly." },
@@ -250,7 +250,7 @@ const CASE_STUDIES = [
     practice: "Human Capital",
     date: "Forthcoming",
     title: "School feeding as a national human-capital lever",
-    dek: "A program diagnostic and redesign for a national school feeding program — re-scoping from nutrition delivery to a vehicle for early-childhood development and agricultural demand creation.",
+    dek: "A program diagnostic and redesign for a national school feeding program, re-scoping from nutrition delivery to a vehicle for early-childhood development and agricultural demand creation.",
     partner: "Foundation + government",
     format: "Field program",
     geography: "East Africa",

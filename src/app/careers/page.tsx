@@ -6,7 +6,7 @@ import { ClosingCTA } from "@/components/ClosingCTA";
 export const metadata: Metadata = {
   title: "Careers — IFF CHAMBER",
   description:
-    "IFF CHAMBER hires practitioners — people who have built or run food systems, not just studied them. Open roles, fellowships, and expressions of interest.",
+    "IFF CHAMBER hires practitioners: people who have built or run food systems, not just studied them. Open roles, fellowships, and expressions of interest.",
 };
 
 export default function CareersPage() {
@@ -42,7 +42,7 @@ export default function CareersPage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.75rem)" }}
           >
-            IFF CHAMBER hires practitioners — people who have built or run food systems, not just studied them. If you are among them, this chamber was built for you.
+            IFF CHAMBER hires practitioners: people who have built or run food systems, not just studied them. If you are among them, this chamber was built for you.
           </p>
         </div>
       </section>
@@ -66,14 +66,14 @@ export default function CareersPage() {
               style={{ fontSize: "clamp(1.85rem, 4vw, 3rem)" }}
             >
               We hire for{" "}
-              <span className="italic text-moss">depth — not pedigree.</span>
+              <span className="italic text-moss">depth, not pedigree.</span>
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-ink-soft text-pretty max-w-3xl">
               <p>
-                Our bar is simple: we hire the people our partners would hire if they could. Practitioners who have spent their careers inside food systems — in a ministry, at a development bank, inside an agri-corporate, on a cooperative board, in a research institution, or on a farm. We are interested in what you have built, reformed, or run.
+                Our bar is simple: we hire the people our partners would hire if they could. Practitioners who have spent their careers inside food systems, in a ministry, at a development bank, inside an agri-corporate, on a cooperative board, in a research institution, or on a farm. We are interested in what you have built, reformed, or run.
               </p>
               <p>
-                The chamber runs thin — senior partners do the work themselves, leverage is not our model. If that sounds appealing, this is a place for you. If you are looking for a pyramid of analysts to manage, we are not.
+                The chamber runs thin. Senior partners do the work themselves, leverage is not our model. If that sounds appealing, this is a place for you. If you are looking for a pyramid of analysts to manage, we are not.
               </p>
             </div>
           </div>
@@ -138,11 +138,11 @@ export default function CareersPage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
                 style={{ fontSize: "clamp(2rem, 4.5vw, 3rem)" }}
               >
-                The founding cohort —{" "}
+                The founding cohort,{" "}
                 <span className="italic text-moss">hiring now.</span>
               </h2>
               <p className="mt-6 font-body text-[17px] leading-[1.6] text-ink-soft max-w-2xl text-pretty">
-                These are the first roles in the chamber. We hire slowly and with conviction — if your profile resonates with any of these, or none of these, write to us.
+                These are the first roles in the chamber. We hire slowly and with conviction. If your profile resonates with any of these, or none of these, write to us.
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function CareersPage() {
               Don't see your role?
             </div>
             <p className="font-body text-[17px] leading-[1.6] text-ink-soft text-pretty">
-              We often create roles around the right people. If your work sits near our mission and your profile is unusual, write to us with a short note on what you have built — and what you want to build next.
+              We often create roles around the right people. If your work sits near our mission and your profile is unusual, write to us with a short note on what you have built, and what you want to build next.
             </p>
             <Link
               href="mailto:careers@iffchamber.com"
@@ -216,7 +216,7 @@ export default function CareersPage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
                 style={{ fontSize: "clamp(2rem, 4.5vw, 3rem)" }}
               >
-                The process — fewer stages, more substance.
+                The process: fewer stages, more substance.
               </h2>
             </div>
           </div>
@@ -258,7 +258,7 @@ export default function CareersPage() {
             Write to <span className="italic text-amber">us.</span>
           </>
         }
-        body="A cover note and a record of what you have built is enough. We read every message carefully — and we respond personally."
+        body="A cover note and a record of what you have built is enough. We read every message carefully, and we respond personally."
       />
     </>
   );
@@ -268,7 +268,7 @@ const OFFERINGS = [
   {
     label: "01",
     title: "Mission you can point to.",
-    body: "Work that moves real systems — governments, food economies, climate trajectories — not work that moves clients a slide deck. The chamber exists to do the former.",
+    body: "Work that moves real systems (governments, food economies, climate trajectories), not work that moves clients a slide deck. The chamber exists to do the former.",
   },
   {
     label: "02",
@@ -278,7 +278,7 @@ const OFFERINGS = [
   {
     label: "03",
     title: "Published work, always.",
-    body: "What you learn here becomes a public good under our chamber's name. Your body of work is yours — and the field's.",
+    body: "What you learn here becomes a public good under our chamber's name. Your body of work is yours, and the field's.",
   },
   {
     label: "04",
@@ -290,19 +290,19 @@ const OFFERINGS = [
 const ROLES = [
   {
     practice: "Food Security",
-    title: "Senior Advisor — Food Security & Sustainability",
+    title: "Senior Advisor, Food Security & Sustainability",
     location: "Remote / hybrid",
     type: "Full-time · Senior",
   },
   {
     practice: "Climate",
-    title: "Senior Advisor — Climate & Food Systems",
+    title: "Senior Advisor, Climate & Food Systems",
     location: "Remote / hybrid",
     type: "Full-time · Senior",
   },
   {
     practice: "Human Capital",
-    title: "Advisor — Human Capital & Livelihoods",
+    title: "Advisor, Human Capital & Livelihoods",
     location: "Remote / hybrid",
     type: "Full-time · Mid-senior",
   },
@@ -330,17 +330,17 @@ const PROCESS = [
   {
     number: "01",
     title: "A written conversation.",
-    body: "A cover note and record of what you have built. No generic cover letters — we want to understand you as a practitioner, in your own words.",
+    body: "A cover note and record of what you have built. No generic cover letters. We want to understand you as a practitioner, in your own words.",
   },
   {
     number: "02",
     title: "A working session.",
-    body: "A real problem from a real engagement, worked through together. No case interviews, no brainteasers. We are trying to see how you think — you are trying to see how we work.",
+    body: "A real problem from a real engagement, worked through together. No case interviews, no brainteasers. We are trying to see how you think. You are trying to see how we work.",
   },
   {
     number: "03",
     title: "Partner conversations.",
-    body: "One or two conversations with senior partners, centered on the work. We will also offer to connect you with someone who has left — a reference from the other direction.",
+    body: "One or two conversations with senior partners, centered on the work. We will also offer to connect you with someone who has left, a reference from the other direction.",
   },
   {
     number: "04",

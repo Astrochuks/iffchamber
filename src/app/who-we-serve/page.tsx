@@ -42,7 +42,7 @@ export default function WhoWeServePage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.75rem)" }}
           >
-            Food systems are shaped by the institutions that finance, govern, supply, and serve them. IFF CHAMBER partners across the full spectrum of actors who can change food at scale — and we specifically work across them, because food does not respect the boundary between public and private.
+            Food systems are shaped by the institutions that finance, govern, supply, and serve them. IFF CHAMBER partners across the full spectrum of actors who can change food at scale, and we specifically work across them, because food does not respect the boundary between public and private.
           </p>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function WhoWeServePage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
                 style={{ fontSize: "clamp(2rem, 4.5vw, 3.25rem)" }}
               >
-                Six types of partner — all of them moving the same{" "}
+                Six types of partner, all of them moving the same{" "}
                 <span className="italic text-moss">lever.</span>
               </h2>
             </div>
@@ -141,7 +141,7 @@ export default function WhoWeServePage() {
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-ink-soft text-pretty max-w-3xl">
               <p>
-                Many advisors specialize in one side of the food economy — public or private, industrial or smallholder, North or South. We specifically do not. The most durable food-system work happens where public policy, private supply chains, civil-society implementation, and development finance meet — and most institutions cannot see across all of those at once.
+                Many advisors specialize in one side of the food economy: public or private, industrial or smallholder, North or South. We specifically do not. The most durable food-system work happens where public policy, private supply chains, civil-society implementation, and development finance meet, and most institutions cannot see across all of those at once.
               </p>
               <p>
                 That cross-sector fluency is our most useful asset. A ministry engagement benefits from our understanding of how agri-corporates actually buy. A foundation strategy benefits from our reading of where DFIs are moving. An agri-corporate transformation benefits from our relationships in the ministries that will govern its future license to operate.

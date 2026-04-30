@@ -36,7 +36,7 @@ export default function ClimatePage() {
             className="mt-12 md:mt-16 font-display font-medium leading-[0.95] tracking-[-0.025em] text-balance text-ink max-w-5xl"
             style={{ fontSize: "clamp(2.75rem, 8vw, 6.5rem)" }}
           >
-            Agriculture is the climate's oldest weapon — and its{" "}
+            Agriculture is the climate's oldest weapon, and its{" "}
             <span className="italic text-moss">greatest ally.</span>
           </h1>
 
@@ -44,7 +44,7 @@ export default function ClimatePage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.7rem)" }}
           >
-            We advise on how food systems become engines of climate mitigation and resilience — rather than drivers of environmental collapse. Our work spans regenerative practice, value-chain decarbonization, adaptation policy, and the finance instruments that make food a climate solution.
+            We advise on how food systems become engines of climate mitigation and resilience, rather than drivers of environmental collapse. Our work spans regenerative practice, value-chain decarbonization, adaptation policy, and the finance instruments that make food a climate solution.
           </p>
 
           <div className="mt-12 flex flex-wrap gap-x-6 gap-y-3">
@@ -78,7 +78,7 @@ export default function ClimatePage() {
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-bone/80 text-pretty max-w-3xl">
               <p>
-                Food systems are responsible for roughly a third of global greenhouse-gas emissions — from land-use change, fertilizer, livestock, and the logistics of the modern food economy. That is the liability side of the ledger.
+                Food systems are responsible for roughly a third of global greenhouse-gas emissions: from land-use change, fertilizer, livestock, and the logistics of the modern food economy. That is the liability side of the ledger.
               </p>
               <p>
                 The asset side is just as significant. Soil, pasture, and agro-ecological systems are among the largest potential carbon sinks on the planet. Regenerative agriculture, reforestation through food production, and well-designed value-chain interventions can take food from climate villain to climate infrastructure.
@@ -114,7 +114,7 @@ export default function ClimatePage() {
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-ink-soft text-pretty max-w-3xl">
               <p>
-                We treat agricultural land as infrastructure — the same way a country treats its transmission grid or its coastline. That framing changes what gets built, what gets measured, and how long the horizon stretches. Climate work on food systems does not belong in a pilot; it belongs in a national adaptation plan.
+                We treat agricultural land as infrastructure, the same way a country treats its transmission grid or its coastline. That framing changes what gets built, what gets measured, and how long the horizon stretches. Climate work on food systems does not belong in a pilot; it belongs in a national adaptation plan.
               </p>
               <p>
                 Our engagements blend mitigation and adaptation deliberately, because the farmer whose practices sequester carbon is the same farmer whose livelihood depends on her farm surviving the next heatwave. Separating the two is a luxury the field cannot afford.
@@ -140,7 +140,7 @@ export default function ClimatePage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
                 style={{ fontSize: "clamp(2rem, 4.5vw, 3.25rem)" }}
               >
-                Five capability areas — built to{" "}
+                Five capability areas, built to{" "}
                 <span className="italic text-moss">bend the curve.</span>
               </h2>
             </div>
@@ -193,7 +193,7 @@ export default function ClimatePage() {
               className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
               style={{ fontSize: "clamp(1.75rem, 3.8vw, 2.5rem)" }}
             >
-              Selected engagements —{" "}
+              Selected engagements,{" "}
               <span className="italic text-moss">forthcoming.</span>
             </h2>
             <p className="mt-8 font-body text-[17px] md:text-[19px] leading-[1.6] text-ink-soft text-pretty max-w-2xl">
@@ -219,26 +219,26 @@ const CAPABILITIES = [
   {
     number: "01",
     title: "Regenerative practices",
-    body: "Moving farms from extractive to regenerative at scale. Cover cropping, rotational grazing, agroforestry, no-till systems — with the economics and institutional support that lets farmers actually make the transition.",
+    body: "Moving farms from extractive to regenerative at scale. Cover cropping, rotational grazing, agroforestry, no-till systems, with the economics and institutional support that lets farmers actually make the transition.",
   },
   {
     number: "02",
     title: "Value-chain emissions",
-    body: "Decarbonizing the food economy from field to shelf. Scope 3 strategy for agri-corporates, low-emissions processing, logistics, and retail — with measurement systems that actually hold up to scrutiny.",
+    body: "Decarbonizing the food economy from field to shelf. Scope 3 strategy for agri-corporates, low-emissions processing, logistics, and retail, with measurement systems that actually hold up to scrutiny.",
   },
   {
     number: "03",
     title: "Climate-resilient farming",
-    body: "Drought-, heat-, and shock-resilient food production. Variety selection, water systems, soil health, and farm-level adaptation planning — with the financial products that make resilience affordable.",
+    body: "Drought-, heat-, and shock-resilient food production. Variety selection, water systems, soil health, and farm-level adaptation planning, with the financial products that make resilience affordable.",
   },
   {
     number: "04",
     title: "Climate finance",
-    body: "Structuring capital — carbon markets, blended finance, concessional capital, insurance instruments — that delivers both climate outcomes and food-system strengthening. We work with DFIs, funds, and ministries on instrument design.",
+    body: "Structuring capital (carbon markets, blended finance, concessional capital, insurance instruments) that delivers both climate outcomes and food-system strengthening. We work with DFIs, funds, and ministries on instrument design.",
   },
   {
     number: "05",
     title: "Adaptation policy",
-    body: "National adaptation strategies with food at the center. NDCs, NAPs, and domestic adaptation instruments — with the institutional architecture to implement them across ministries, provinces, and seasons.",
+    body: "National adaptation strategies with food at the center. NDCs, NAPs, and domestic adaptation instruments, with the institutional architecture to implement them across ministries, provinces, and seasons.",
   },
 ];

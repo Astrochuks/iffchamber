@@ -42,7 +42,7 @@ export function SiteFooter() {
               <Wordmark size="lg" withSubtitle />
             </div>
             <p className="mt-8 font-display text-xl md:text-[1.5rem] leading-[1.3] text-ink-soft max-w-md text-pretty">
-              A non-profit advisory for nations, institutions, and industries — committed to advancing human capital through food security and sustainability.
+              A non-profit advisory for nations, institutions, and industries, committed to advancing human capital through food security and sustainability.
             </p>
           </div>
 

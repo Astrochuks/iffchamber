@@ -6,7 +6,7 @@ import { ClosingCTA } from "@/components/ClosingCTA";
 export const metadata: Metadata = {
   title: "Human Capital Development — IFF CHAMBER",
   description:
-    "Food is the first economic act. IFF CHAMBER translates food systems into pathways for nutrition, employment, skills, and livelihoods — so that food doesn't just sustain people, it lifts them.",
+    "Food is the first economic act. IFF CHAMBER translates food systems into pathways for nutrition, employment, skills, and livelihoods, so that food doesn't just sustain people, it lifts them.",
 };
 
 export default function HumanCapitalPage() {
@@ -43,7 +43,7 @@ export default function HumanCapitalPage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.7rem)" }}
           >
-            We help governments, institutions, and industries translate food systems into pathways for nutrition, employment, skills, and livelihoods — so that food does not simply sustain people, but lifts them.
+            We help governments, institutions, and industries translate food systems into pathways for nutrition, employment, skills, and livelihoods, so that food does not simply sustain people, but lifts them.
           </p>
 
           <div className="mt-12 flex flex-wrap gap-x-6 gap-y-3">
@@ -77,10 +77,10 @@ export default function HumanCapitalPage() {
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-bone/80 text-pretty max-w-3xl">
               <p>
-                Nutrition shapes a child's cognitive development before they enter a classroom. Agriculture is the largest employer on earth — more than three billion livelihoods run through food systems. The skills a country builds around its food economy decide whether agriculture is an exit from poverty or a dead end.
+                Nutrition shapes a child's cognitive development before they enter a classroom. Agriculture is the largest employer on earth: more than three billion livelihoods run through food systems. The skills a country builds around its food economy decide whether agriculture is an exit from poverty or a dead end.
               </p>
               <p>
-                And yet food is still framed in many contexts as calorie delivery. We think of it as the most powerful human-development instrument available — and we design for it accordingly.
+                And yet food is still framed in many contexts as calorie delivery. We think of it as the most powerful human-development instrument available, and we design for it accordingly.
               </p>
             </div>
           </div>
@@ -105,7 +105,7 @@ export default function HumanCapitalPage() {
               className="font-display font-medium leading-[1.06] tracking-[-0.015em] text-balance"
               style={{ fontSize: "clamp(1.85rem, 4vw, 3rem)" }}
             >
-              Food as pathway — not{" "}
+              Food as pathway, not{" "}
               <span className="italic text-moss">endpoint.</span>
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-ink-soft text-pretty max-w-3xl">
@@ -113,7 +113,7 @@ export default function HumanCapitalPage() {
                 We design food interventions as lifelong human-development tools, not one-time transfers. A nutrition program measured only by calories delivered is a transaction; measured by cognitive outcomes at age five and earning outcomes at age twenty-five, it is a strategy. We work to the second standard.
               </p>
               <p>
-                The same applies to employment and skills. Agriculture is the largest available entry-point to formal, dignified work for young populations in much of the world — but only if the value chains are designed to graduate workers from subsistence to surplus, and only if training, credit, and market access are designed into the system.
+                The same applies to employment and skills. Agriculture is the largest available entry-point to formal, dignified work for young populations in much of the world, but only if the value chains are designed to graduate workers from subsistence to surplus, and only if training, credit, and market access are designed into the system.
               </p>
             </div>
           </div>
@@ -136,7 +136,7 @@ export default function HumanCapitalPage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
                 style={{ fontSize: "clamp(2rem, 4.5vw, 3.25rem)" }}
               >
-                Five capability areas — built to{" "}
+                Five capability areas, built to{" "}
                 <span className="italic text-moss">lift.</span>
               </h2>
             </div>
@@ -189,7 +189,7 @@ export default function HumanCapitalPage() {
               className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
               style={{ fontSize: "clamp(1.75rem, 3.8vw, 2.5rem)" }}
             >
-              Selected engagements —{" "}
+              Selected engagements,{" "}
               <span className="italic text-moss">forthcoming.</span>
             </h2>
             <p className="mt-8 font-body text-[17px] md:text-[19px] leading-[1.6] text-ink-soft text-pretty max-w-2xl">
@@ -225,7 +225,7 @@ const CAPABILITIES = [
   {
     number: "03",
     title: "Skills & training",
-    body: "Agricultural extension, agri-tech literacy, and the skills architecture that lets a workforce move from subsistence farming to modern agribusiness — without displacement.",
+    body: "Agricultural extension, agri-tech literacy, and the skills architecture that lets a workforce move from subsistence farming to modern agribusiness, without displacement.",
   },
   {
     number: "04",
@@ -235,6 +235,6 @@ const CAPABILITIES = [
   {
     number: "05",
     title: "Equity & inclusion",
-    body: "Women, youth, and indigenous communities at the center of food-system change. Program design, procurement practices, and policy instruments that close — rather than widen — inclusion gaps.",
+    body: "Women, youth, and indigenous communities at the center of food-system change. Program design, procurement practices, and policy instruments that close (rather than widen) inclusion gaps.",
   },
 ];

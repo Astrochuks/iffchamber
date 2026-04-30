@@ -44,7 +44,7 @@ export default function FoodSecurityPage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.7rem)" }}
           >
-            We advise on the architecture of food security — from the farm to the household — and the sustainability of the systems that deliver it. Our work spans national strategy, supply-chain resilience, and the long-run institutions that secure a nation's food future.
+            We advise on the architecture of food security (from the farm to the household) and the sustainability of the systems that deliver it. Our work spans national strategy, supply-chain resilience, and the long-run institutions that secure a nation's food future.
           </p>
 
           <div className="mt-12 flex flex-wrap gap-x-6 gap-y-3">
@@ -77,10 +77,10 @@ export default function FoodSecurityPage() {
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-bone/80 text-pretty max-w-3xl">
               <p>
-                These are not two problems — they are the same problem. Food insecurity is what happens when systems fail to deliver. And food waste is the most visible signal that those systems are delivering the wrong things to the wrong places.
+                These are not two problems. They are the same problem. Food insecurity is what happens when systems fail to deliver. And food waste is the most visible signal that those systems are delivering the wrong things to the wrong places.
               </p>
               <p>
-                Solving security without sustainability is a short horizon. Solving sustainability without security is moral cowardice. We work the two together — because that is the only scale of work that actually changes the future of how nations eat.
+                Solving security without sustainability is a short horizon. Solving sustainability without security is moral cowardice. We work the two together, because that is the only scale of work that actually changes the future of how nations eat.
               </p>
             </div>
           </div>
@@ -110,7 +110,7 @@ export default function FoodSecurityPage() {
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-ink-soft text-pretty max-w-3xl">
               <p>
-                We measure food security not by short-term availability but by the resilience of the institutions, supply chains, markets, and reserves that guarantee it. Emergency response has its place — it is not what we do. Our engagements are built for a ten-year horizon and a national scale.
+                We measure food security not by short-term availability but by the resilience of the institutions, supply chains, markets, and reserves that guarantee it. Emergency response has its place. It is not what we do. Our engagements are built for a ten-year horizon and a national scale.
               </p>
               <p>
                 The same logic applies to sustainability: we work on the system-level shifts that make food production regenerative by default, rather than bolting sustainability onto an extractive system as a premium add-on.
@@ -136,7 +136,7 @@ export default function FoodSecurityPage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
                 style={{ fontSize: "clamp(2rem, 4.5vw, 3.25rem)" }}
               >
-                Five capability areas — built to{" "}
+                Five capability areas, built to{" "}
                 <span className="italic text-moss">intersect.</span>
               </h2>
             </div>
@@ -189,7 +189,7 @@ export default function FoodSecurityPage() {
               className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
               style={{ fontSize: "clamp(1.75rem, 3.8vw, 2.5rem)" }}
             >
-              Selected engagements —{" "}
+              Selected engagements,{" "}
               <span className="italic text-moss">forthcoming.</span>
             </h2>
             <p className="mt-8 font-body text-[17px] md:text-[19px] leading-[1.6] text-ink-soft text-pretty max-w-2xl">
@@ -230,7 +230,7 @@ const CAPABILITIES = [
   {
     number: "04",
     title: "Circular food economies",
-    body: "Designing food systems where organic waste, energy, and nutrients cycle back into production. Composting at scale, biogas, by-product markets, and circular packaging — built into the system rather than bolted on.",
+    body: "Designing food systems where organic waste, energy, and nutrients cycle back into production. Composting at scale, biogas, by-product markets, and circular packaging, built into the system rather than bolted on.",
   },
   {
     number: "05",

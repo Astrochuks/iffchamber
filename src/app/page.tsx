@@ -97,12 +97,12 @@ export default function Home() {
               >
                 Every economy, every community, every climate is shaped by how
                 food is grown, moved, and shared. Food sits at the intersection
-                of human survival and human possibility — the only sector that
+                of human survival and human possibility: the only sector that
                 simultaneously feeds people, employs them, defines their land,
                 and determines their future. IFF CHAMBER was built on this
                 conviction. We work alongside governments, institutions, and
                 industries to redesign food systems as engines of development,
-                equity, and ecological repair — leaving no one, and no industry,
+                equity, and ecological repair, leaving no one, and no industry,
                 behind.
               </p>
 
@@ -131,7 +131,7 @@ export default function Home() {
                 className="font-display font-medium leading-[1.05] tracking-[-0.02em] text-balance"
                 style={{ fontSize: "clamp(2rem, 5vw, 3.75rem)" }}
               >
-                Three practices, one conviction —{" "}
+                Three practices, one conviction:{" "}
                 <span className="italic text-moss">food is how we change</span>{" "}
                 the world's most important systems.
               </h2>
@@ -268,7 +268,7 @@ export default function Home() {
             <p className="mt-10 font-body text-[18px] md:text-[21px] leading-[1.5] text-bone/80 max-w-xl text-pretty">
               We partner with governments, foundations, multilaterals,
               agri-corporates, and development institutions on engagements that
-              matter — at the scale of nations and the depth of communities.
+              matter, at the scale of nations and the depth of communities.
             </p>
           </div>
 
@@ -305,7 +305,7 @@ const PILLARS = [
   {
     number: "01",
     title: "Food Security & Sustainability",
-    body: "Building food systems that feed today without borrowing from tomorrow. We advise on supply resilience, smallholder productivity, post-harvest loss, circular food economies, and the policy architecture that makes food systems durable — from farm to market to table.",
+    body: "Building food systems that feed today without borrowing from tomorrow. We advise on supply resilience, smallholder productivity, post-harvest loss, circular food economies, and the policy architecture that makes food systems durable, from farm to market to table.",
     href: "/what-we-do/food-security",
     tags: [
       "Supply resilience",
@@ -318,7 +318,7 @@ const PILLARS = [
   {
     number: "02",
     title: "Human Capital Development",
-    body: "Food is the first economic act. We help governments, institutions, and industries translate food systems into pathways for nutrition, employment, skills, and livelihoods — so that food doesn't just sustain people, it lifts them.",
+    body: "Food is the first economic act. We help governments, institutions, and industries translate food systems into pathways for nutrition, employment, skills, and livelihoods, so that food doesn't just sustain people, it lifts them.",
     href: "/what-we-do/human-capital",
     tags: [
       "Nutrition strategy",
@@ -349,7 +349,7 @@ const INSIGHTS = [
     date: "Forthcoming",
     title:
       "The lever in plain sight: why food is the most under-used development tool of the century.",
-    dek: "A founding essay on why nations that build durable food systems unlock everything else — health, employment, climate, security.",
+    dek: "A founding essay on why nations that build durable food systems unlock everything else: health, employment, climate, security.",
     href: "/insights",
   },
   {
@@ -357,7 +357,7 @@ const INSIGHTS = [
     date: "Forthcoming",
     title:
       "Smallholders, supply chains, and the economics of resilience.",
-    dek: "How distributed food production becomes the backbone of national food security — and what advisors get wrong about it.",
+    dek: "How distributed food production becomes the backbone of national food security, and what advisors get wrong about it.",
     href: "/insights",
   },
   {
@@ -365,7 +365,7 @@ const INSIGHTS = [
     date: "Forthcoming",
     title:
       "Beyond regenerative: a framework for measuring food's climate dividend.",
-    dek: "Carbon, water, biodiversity, soil — a unified accounting for the climate value of well-designed food systems.",
+    dek: "Carbon, water, biodiversity, soil: a unified accounting for the climate value of well-designed food systems.",
     href: "/insights",
   },
 ];

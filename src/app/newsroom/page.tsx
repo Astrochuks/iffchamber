@@ -6,7 +6,7 @@ import { ClosingCTA } from "@/components/ClosingCTA";
 export const metadata: Metadata = {
   title: "Newsroom — IFF CHAMBER",
   description:
-    "News, announcements, and press from IFF CHAMBER — the Interconnected Food Futures Chamber.",
+    "News, announcements, and press from IFF CHAMBER, the Interconnected Food Futures Chamber.",
 };
 
 export default function NewsroomPage() {
@@ -63,7 +63,7 @@ export default function NewsroomPage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.015em] text-balance"
                 style={{ fontSize: "clamp(1.85rem, 4vw, 2.75rem)" }}
               >
-                Official statements — in{" "}
+                Official statements, in{" "}
                 <span className="italic text-moss">our words.</span>
               </h2>
             </div>
@@ -210,7 +210,7 @@ const PRESS_RELEASES = [
   {
     date: "Forthcoming",
     type: "Announcement",
-    title: "IFF CHAMBER formally launches — the Interconnected Food Futures Chamber begins operations.",
+    title: "IFF CHAMBER formally launches: the Interconnected Food Futures Chamber begins operations.",
     dek: "The chamber announces its formal launch as a non-profit advisory working at the intersection of food security, human capital, and climate.",
   },
   {
@@ -223,7 +223,7 @@ const PRESS_RELEASES = [
     date: "Forthcoming",
     type: "Engagement",
     title: "First national food-strategy engagement announced.",
-    dek: "The chamber commences its first government engagement — a decade-long food-strategy partnership.",
+    dek: "The chamber commences its first government engagement, a decade-long food-strategy partnership.",
   },
   {
     date: "Forthcoming",
@@ -235,7 +235,7 @@ const PRESS_RELEASES = [
     date: "Forthcoming",
     type: "Leadership",
     title: "Founding board of advisors announced.",
-    dek: "The chamber unveils its founding board — practitioners drawn from government, multilaterals, academia, and industry.",
+    dek: "The chamber unveils its founding board, practitioners drawn from government, multilaterals, academia, and industry.",
   },
 ];
 
@@ -247,7 +247,7 @@ const MEDIA = [
   },
   {
     outlet: "Forthcoming outlet",
-    title: "Why food needs a non-profit advisory — a new institution weighs in.",
+    title: "Why food needs a non-profit advisory: a new institution weighs in.",
     date: "Forthcoming",
   },
   {
@@ -267,7 +267,7 @@ const MEDIA = [
   },
   {
     outlet: "Forthcoming outlet",
-    title: "Op-ed: Leaving no industry behind — a cross-sector approach to food.",
+    title: "Op-ed: Leaving no industry behind, a cross-sector approach to food.",
     date: "Forthcoming",
   },
 ];

@@ -41,7 +41,7 @@ export default function ContactPage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.75rem)" }}
           >
-            Reach us directly, submit a brief, or open a general inquiry. We read every message that comes through — and we respond within two working days.
+            Reach us directly, submit a brief, or open a general inquiry. We read every message that comes through, and we respond within two working days.
           </p>
         </div>
       </section>
@@ -112,7 +112,7 @@ export default function ContactPage() {
                 Tell us what you're working on.
               </h2>
               <p className="mt-6 font-body text-[17px] md:text-[18.5px] leading-[1.65] text-ink-soft max-w-2xl text-pretty">
-                A brief is a starting point — not a commitment. Share as much or as little as you want; a senior partner will read your message personally.
+                A brief is a starting point, not a commitment. Share as much or as little as you want; a senior partner will read your message personally.
               </p>
 
               <div className="mt-12 max-w-2xl">

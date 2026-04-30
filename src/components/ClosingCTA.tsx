@@ -11,7 +11,7 @@ export function ClosingCTA({
   number = "04",
   eyebrow = "Engage",
   headline,
-  body = "We partner with governments, foundations, multilaterals, agri-corporates, and development institutions on engagements that matter — at the scale of nations and the depth of communities.",
+  body = "We partner with governments, foundations, multilaterals, agri-corporates, and development institutions on engagements that matter, at the scale of nations and the depth of communities.",
 }: Props) {
   return (
     <section className="border-t border-ink/30 px-6 md:px-12 py-24 md:py-40 bg-ink text-bone relative overflow-hidden">

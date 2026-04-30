@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Image from "next/image";
 import { LeafGlyph } from "@/components/LeafGlyph";
 import { ClosingCTA } from "@/components/ClosingCTA";
 
 export const metadata: Metadata = {
   title: "About — IFF CHAMBER",
   description:
-    "IFF CHAMBER is a non-profit advisory founded on a simple conviction — food is the most under-used lever for advancing human development, economic growth, and environmental resilience.",
+    "IFF CHAMBER is a non-profit advisory founded on a simple conviction: food is the most under-used lever for advancing human development, economic growth, and environmental resilience.",
 };
 
 export default function AboutPage() {
@@ -42,7 +42,7 @@ export default function AboutPage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.75rem)" }}
           >
-            IFF CHAMBER is a non-profit advisory founded on a simple conviction — food is the most under-used lever for advancing human development, economic growth, and environmental resilience. We work with the governments, institutions, and industries that can move food systems at scale.
+            IFF CHAMBER is a non-profit advisory founded on a simple conviction: food is the most under-used lever for advancing human development, economic growth, and environmental resilience. We work with the governments, institutions, and industries that can move food systems at scale.
           </p>
         </div>
       </section>
@@ -65,18 +65,18 @@ export default function AboutPage() {
               className="font-display font-medium leading-[1.06] tracking-[-0.015em] text-balance"
               style={{ fontSize: "clamp(1.85rem, 4vw, 3rem)" }}
             >
-              Food is the pillar beneath every modern goal — and it's{" "}
+              Food is the pillar beneath every modern goal. And it's{" "}
               <span className="italic text-moss">under-served by serious strategy.</span>
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-ink-soft text-pretty max-w-3xl">
               <p>
-                Climate, public health, employment, trade, migration, national security — each of these rests on food, and each is advised on as if food were someone else's problem. Agriculture here. Nutrition there. Supply chain somewhere else. The result is a world that spends billions on fragments and wonders why the system does not change.
+                Climate, public health, employment, trade, migration, national security: each of these rests on food, and each is advised on as if food were someone else's problem. Agriculture here. Nutrition there. Supply chain somewhere else. The result is a world that spends billions on fragments and wonders why the system does not change.
               </p>
               <p>
                 IFF CHAMBER exists to treat food as what it is: a single integrated lever that moves human development, economic vitality, and environmental resilience in one motion. We advise the people who can pull that lever at scale.
               </p>
               <p>
-                We are structured as a non-profit because our research, our recommendations, and our long-run relationships must answer to the mission and to the communities we serve — not to markets, not to shareholders, not to the quarter.
+                We are structured as a non-profit because our research, our recommendations, and our long-run relationships must answer to the mission and to the communities we serve, not to markets, not to shareholders, not to the quarter.
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@ export default function AboutPage() {
                 className="font-display font-medium leading-[1.06] tracking-[-0.015em] text-balance"
                 style={{ fontSize: "clamp(1.85rem, 4vw, 3rem)" }}
               >
-                Four convictions — held long before we{" "}
+                Four convictions, held long before we{" "}
                 <span className="italic text-moss">write anything down.</span>
               </h2>
             </div>
@@ -191,7 +191,7 @@ export default function AboutPage() {
               className="font-display font-medium leading-[1.06] tracking-[-0.015em] text-balance"
               style={{ fontSize: "clamp(1.75rem, 3.5vw, 2.5rem)" }}
             >
-              A non-profit, by design — so the work answers to the{" "}
+              A non-profit, by design, so the work answers to the{" "}
               <span className="italic text-moss">mission.</span>
             </h2>
             <p className="mt-8 font-body text-[17px] md:text-[19px] leading-[1.65] text-ink-soft text-pretty max-w-3xl">
@@ -214,34 +214,72 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* LEADERSHIP */}
+      {/* PEOPLE */}
       <section className="border-t border-ink/15 px-6 md:px-12 py-24 md:py-32">
-        <div className="mx-auto max-w-[1480px] grid grid-cols-12 gap-8 md:gap-12">
-          <div className="col-span-12 md:col-span-3">
-            <div className="font-mono text-[11px] uppercase tracking-[0.24em] text-ink-mute">
-              <span className="text-amber">05</span>
-              <span className="mx-2">—</span>
-              Leadership
+        <div className="mx-auto max-w-[1480px]">
+          <div className="grid grid-cols-12 gap-8 md:gap-12 mb-16 md:mb-20">
+            <div className="col-span-12 md:col-span-3">
+              <div className="font-mono text-[11px] uppercase tracking-[0.24em] text-ink-mute">
+                <span className="text-amber">05</span>
+                <span className="mx-2">—</span>
+                People
+              </div>
+            </div>
+            <div className="col-span-12 md:col-span-9">
+              <h2
+                className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
+                style={{ fontSize: "clamp(2rem, 4.5vw, 3.25rem)" }}
+              >
+                The people behind{" "}
+                <span className="italic text-moss">the work.</span>
+              </h2>
+              <p className="mt-8 font-body text-[17px] md:text-[19px] leading-[1.6] text-ink-soft text-pretty max-w-2xl">
+                The chamber's work is carried by a small founding team, practitioners who built it from conviction, not commission. Our board of advisors will be published as it is finalised.
+              </p>
             </div>
           </div>
-          <div className="col-span-12 md:col-span-9">
-            <h2
-              className="font-display font-medium leading-[1.06] tracking-[-0.02em] text-balance"
-              style={{ fontSize: "clamp(2rem, 4.5vw, 3.25rem)" }}
-            >
-              Partners who've built what they{" "}
-              <span className="italic text-moss">advise on.</span>
-            </h2>
-            <p className="mt-8 font-body text-[17px] md:text-[19px] leading-[1.6] text-ink-soft text-pretty max-w-2xl">
-              Our founding team and board of advisors will be published shortly. IFF CHAMBER's leadership combines practitioners drawn from government, multilaterals, agribusiness, and academia — people who have built or reformed food-system institutions at national scale.
-            </p>
-            <Link
-              href="/contact"
-              className="mt-12 inline-flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.22em] text-moss hover:text-amber transition-colors group"
-            >
-              Inquire about leadership
-              <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1.5">→</span>
-            </Link>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+            {PEOPLE.map((p) => (
+              <article key={p.name} className="border-t border-ink/20 pt-6">
+                <div className="relative aspect-square overflow-hidden bg-bone-soft mb-6">
+                  <Image
+                    src={p.image}
+                    alt={p.name}
+                    fill
+                    sizes="(min-width: 768px) 36vw, 100vw"
+                    className="object-cover object-top"
+                  />
+                </div>
+                <div className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-amber mb-3">
+                  {p.role}
+                </div>
+                <h3
+                  className="font-display font-medium text-ink leading-[1.1] tracking-[-0.01em]"
+                  style={{ fontSize: "clamp(1.5rem, 2.6vw, 1.95rem)" }}
+                >
+                  {p.name}
+                </h3>
+                <p className="mt-5 font-body text-[16px] md:text-[17px] leading-[1.6] text-ink-soft text-pretty max-w-prose">
+                  {p.bio}
+                </p>
+                {p.links.length > 0 && (
+                  <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2">
+                    {p.links.map((l) => (
+                      <a
+                        key={l.href}
+                        href={l.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-mono text-[10.5px] uppercase tracking-[0.22em] text-ink-mute hover:text-amber transition-colors"
+                      >
+                        {l.label} →
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </article>
+            ))}
           </div>
         </div>
       </section>
@@ -255,7 +293,7 @@ const PRINCIPLES = [
   {
     number: "01",
     title: "Food is infrastructure.",
-    body: "We treat food with the seriousness a nation treats its power grid or its roads. Food systems are long-lived public goods that need designed resilience, deliberate investment, and institutional memory — not charity, campaigns, or quarterly attention.",
+    body: "We treat food with the seriousness a nation treats its power grid or its roads. Food systems are long-lived public goods that need designed resilience, deliberate investment, and institutional memory, not charity, campaigns, or quarterly attention.",
   },
   {
     number: "02",
@@ -270,7 +308,7 @@ const PRINCIPLES = [
   {
     number: "04",
     title: "Leave no one, and no industry, behind.",
-    body: "Food binds everyone — smallholder and agri-corp, minister and villager, investor and eater. Our work has to. We refuse to choose a side of a system that, done right, lifts every side at once.",
+    body: "Food binds everyone: smallholder and agri-corp, minister and villager, investor and eater. Our work has to. We refuse to choose a side of a system that, done right, lifts every side at once.",
   },
 ];
 
@@ -278,7 +316,7 @@ const BEHAVIORS = [
   {
     label: "A",
     title: "Diagnose at the scale of the system.",
-    body: "We begin by understanding the whole — the supply chain, the ministry, the market, the climate context — before we zoom into the piece we were asked about. A narrow brief is often a wrongly scoped problem.",
+    body: "We begin by understanding the whole (the supply chain, the ministry, the market, the climate context) before we zoom into the piece we were asked about. A narrow brief is often a wrongly scoped problem.",
   },
   {
     label: "B",
@@ -288,12 +326,12 @@ const BEHAVIORS = [
   {
     label: "C",
     title: "Execute through institutions.",
-    body: "We strengthen the ministries, the DFIs, the co-operatives, the universities — and leave. We don't build parallel institutions that would outlast the engagement and compete with the ones already doing the work.",
+    body: "We strengthen the ministries, the DFIs, the co-operatives, the universities, and leave. We don't build parallel institutions that would outlast the engagement and compete with the ones already doing the work.",
   },
   {
     label: "D",
     title: "Learn and publish in public.",
-    body: "What we learn on engagements — frameworks, data, lessons — becomes a public good. Our insights, briefs, and positions are freely available. The field advances when knowledge is shared, not hoarded.",
+    body: "What we learn on engagements (frameworks, data, lessons) becomes a public good. Our insights, briefs, and positions are freely available. The field advances when knowledge is shared, not hoarded.",
   },
 ];
 
@@ -301,4 +339,31 @@ const GOVERNANCE_FACTS = [
   { label: "Legal form", value: "Non-profit advisory" },
   { label: "Surplus", value: "Reinvested in public-good research" },
   { label: "Fees", value: "Underwrite pro-bono programs" },
+];
+
+const PEOPLE: {
+  name: string;
+  role: string;
+  image: string;
+  bio: string;
+  links: { label: string; href: string }[];
+}[] = [
+  {
+    name: "ThankGod Nomsonh",
+    role: "Founding Director",
+    image: "/team/thankgod-nomsonh.jpg",
+    bio: "ThankGod founded IFF CHAMBER on the conviction that food is the most under-used lever for human and economic progress, and that the field deserves a serious institution. At the chamber, he sets the strategic direction and leads engagements with the governments, institutions, and industries shaping food futures.",
+    links: [
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/nomsonh-thankgod-81b262159/" },
+    ],
+  },
+  {
+    name: "Shedrack Emeka",
+    role: "Digital & Communications Lead",
+    image: "/team/shedrack-emeka.jpg",
+    bio: "Shedrack runs IFF CHAMBER's digital infrastructure and communications. He builds and maintains the chamber's web presence, shapes how the organization shows up in writing, and runs outbound across email and social channels. He joined as part of the founding team, translating the chamber's voice into the systems that carry it.",
+    links: [
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/shedrack-ajakghe-79484623b/" },
+    ],
+  },
 ];

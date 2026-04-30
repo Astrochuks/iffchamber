@@ -29,7 +29,7 @@ export default function NotFound() {
               className="mt-10 max-w-2xl font-display text-ink-soft text-pretty"
               style={{ fontSize: "clamp(1.25rem, 1.9vw, 1.65rem)", lineHeight: 1.4 }}
             >
-              The chamber is being built section by section. This page hasn't yet been written — but the rest of the site is open.
+              The chamber is being built section by section. This page hasn't yet been written, but the rest of the site is open.
             </p>
             <Link
               href="/"

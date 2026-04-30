@@ -6,7 +6,7 @@ import { ClosingCTA } from "@/components/ClosingCTA";
 export const metadata: Metadata = {
   title: "The Practice — IFF CHAMBER",
   description:
-    "IFF CHAMBER organizes its work around three interwoven practices — Food Security & Sustainability, Human Capital Development, and Climate Mitigation & Adaptation.",
+    "IFF CHAMBER organizes its work around three interwoven practices: Food Security & Sustainability, Human Capital Development, and Climate Mitigation & Adaptation.",
 };
 
 export default function WhatWeDoPage() {
@@ -42,7 +42,7 @@ export default function WhatWeDoPage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.75rem)" }}
           >
-            IFF CHAMBER organizes its work around three interwoven practices. Together, they form an integrated lens on the systems that feed us — from the soil a farmer works, to the policy that shapes a nation's nutrition, to the climate trajectory of a continent.
+            IFF CHAMBER organizes its work around three interwoven practices. Together, they form an integrated lens on the systems that feed us, from the soil a farmer works, to the policy that shapes a nation's nutrition, to the climate trajectory of a continent.
           </p>
         </div>
       </section>
@@ -66,14 +66,14 @@ export default function WhatWeDoPage() {
               style={{ fontSize: "clamp(1.85rem, 4vw, 3rem)" }}
             >
               Food systems are{" "}
-              <span className="italic text-moss">one system</span> — they break, thrive, or transform as one.
+              <span className="italic text-moss">one system.</span> They break, thrive, or transform as one.
             </h2>
             <div className="mt-10 space-y-6 font-body text-[17px] md:text-[19px] leading-[1.65] text-ink-soft text-pretty max-w-3xl">
               <p>
                 Most food advisory sits in silos. A nutrition firm. A supply-chain consultancy. A climate-finance team. Each is competent in its own lane, but the system does not live in lanes. A policy decision that lifts a smallholder's yield is the same decision that shapes her nutrition, her income, her emissions footprint, and her community's resilience to drought.
               </p>
               <p>
-                Our three practices are an answer to that fragmentation. They are separate disciplines with deep expertise — and they are run as a single, integrated lens. A government partner can engage us on a food-security strategy and inherit the human-capital and climate implications for free. A foundation can fund a climate adaptation program and have the livelihoods outcomes designed into it from day one.
+                Our three practices are an answer to that fragmentation. They are separate disciplines with deep expertise, and they are run as a single, integrated lens. A government partner can engage us on a food-security strategy and inherit the human-capital and climate implications for free. A foundation can fund a climate adaptation program and have the livelihoods outcomes designed into it from day one.
               </p>
             </div>
           </div>
@@ -206,14 +206,14 @@ const PRACTICES = [
   {
     number: "01",
     title: "Food Security & Sustainability",
-    body: "Building food systems that feed today without borrowing from tomorrow. We advise on supply resilience, smallholder productivity, post-harvest loss, circular food economies, and the policy architecture that makes food systems durable — from farm to market to table.",
+    body: "Building food systems that feed today without borrowing from tomorrow. We advise on supply resilience, smallholder productivity, post-harvest loss, circular food economies, and the policy architecture that makes food systems durable, from farm to market to table.",
     href: "/what-we-do/food-security",
     tags: ["Supply resilience", "Smallholder productivity", "Post-harvest loss", "Circular food economies", "Policy architecture"],
   },
   {
     number: "02",
     title: "Human Capital Development",
-    body: "Food is the first economic act. We help governments, institutions, and industries translate food systems into pathways for nutrition, employment, skills, and livelihoods — so that food doesn't just sustain people, it lifts them.",
+    body: "Food is the first economic act. We help governments, institutions, and industries translate food systems into pathways for nutrition, employment, skills, and livelihoods, so that food doesn't just sustain people, it lifts them.",
     href: "/what-we-do/human-capital",
     tags: ["Nutrition strategy", "Agri-employment", "Skills & training", "Livelihoods design", "Equity & inclusion"],
   },
