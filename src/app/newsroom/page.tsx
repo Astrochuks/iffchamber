@@ -211,7 +211,7 @@ const PRESS_RELEASES = [
     date: "Forthcoming",
     type: "Announcement",
     title: "IFF CHAMBER formally launches: the Interconnected Food Futures Chamber begins operations.",
-    dek: "The chamber announces its formal launch as a non-profit advisory working at the intersection of food security, human capital, and climate.",
+    dek: "The chamber announces its formal launch as a food system advisory working at the intersection of food security, human capital, and climate.",
   },
   {
     date: "Forthcoming",
@@ -247,7 +247,7 @@ const MEDIA = [
   },
   {
     outlet: "Forthcoming outlet",
-    title: "Why food needs a non-profit advisory: a new institution weighs in.",
+    title: "Why food needs a food system advisory: a new institution weighs in.",
     date: "Forthcoming",
   },
   {

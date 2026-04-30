@@ -25,7 +25,7 @@ const jet = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "IFF CHAMBER — Interconnected Food Futures Chamber",
   description:
-    "A non-profit advisory working with governments, institutions, and industries to advance human development, economic growth, and environmental resilience through the systems that feed us.",
+    "A food system advisory working with governments, institutions, and industries to advance human development, economic growth, and environmental resilience through the systems that feed us.",
 };
 
 export default function RootLayout({

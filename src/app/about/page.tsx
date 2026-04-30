@@ -6,7 +6,7 @@ import { ClosingCTA } from "@/components/ClosingCTA";
 export const metadata: Metadata = {
   title: "About — IFF CHAMBER",
   description:
-    "IFF CHAMBER is a non-profit advisory founded on a simple conviction: food is the most under-used lever for advancing human development, economic growth, and environmental resilience.",
+    "IFF CHAMBER is a food system advisory founded on a simple conviction: food is the most under-used lever for advancing human development, economic growth, and environmental resilience.",
 };
 
 export default function AboutPage() {
@@ -42,7 +42,7 @@ export default function AboutPage() {
             className="mt-10 md:mt-14 max-w-3xl font-display leading-[1.22] text-ink-soft text-pretty"
             style={{ fontSize: "clamp(1.25rem, 2.1vw, 1.75rem)" }}
           >
-            IFF CHAMBER is a non-profit advisory founded on a simple conviction: food is the most under-used lever for advancing human development, economic growth, and environmental resilience. We work with the governments, institutions, and industries that can move food systems at scale.
+            IFF CHAMBER is a food system advisory founded on a simple conviction: food is the most under-used lever for advancing human development, economic growth, and environmental resilience. We work with the governments, institutions, and industries that can move food systems at scale.
           </p>
         </div>
       </section>
@@ -76,7 +76,7 @@ export default function AboutPage() {
                 IFF CHAMBER exists to treat food as what it is: a single integrated lever that moves human development, economic vitality, and environmental resilience in one motion. We advise the people who can pull that lever at scale.
               </p>
               <p>
-                We are structured as a non-profit because our research, our recommendations, and our long-run relationships must answer to the mission and to the communities we serve, not to markets, not to shareholders, not to the quarter.
+                We are structured as a food system advisory because our research, our recommendations, and our long-run relationships must answer to the mission and to the communities we serve, not to markets, not to shareholders, not to the quarter.
               </p>
             </div>
           </div>
@@ -191,11 +191,11 @@ export default function AboutPage() {
               className="font-display font-medium leading-[1.06] tracking-[-0.015em] text-balance"
               style={{ fontSize: "clamp(1.75rem, 3.5vw, 2.5rem)" }}
             >
-              A non-profit, by design, so the work answers to the{" "}
+              A food system advisory, by design, so the work answers to the{" "}
               <span className="italic text-moss">mission.</span>
             </h2>
             <p className="mt-8 font-body text-[17px] md:text-[19px] leading-[1.65] text-ink-soft text-pretty max-w-3xl">
-              IFF CHAMBER is incorporated as a non-profit advisory. We earn revenue from engagements with governments, institutions, and industries able to commission serious work. All surplus is reinvested into public-good research, field programs, and pro-bono support for smaller organizations advancing the mission.
+              IFF CHAMBER is incorporated as a food system advisory. We earn revenue from engagements with governments, institutions, and industries able to commission serious work. All surplus is reinvested into public-good research, field programs, and pro-bono support for smaller organizations advancing the mission.
             </p>
 
             <dl className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl">
@@ -336,7 +336,7 @@ const BEHAVIORS = [
 ];
 
 const GOVERNANCE_FACTS = [
-  { label: "Legal form", value: "Non-profit advisory" },
+  { label: "Legal form", value: "food system advisory" },
   { label: "Surplus", value: "Reinvested in public-good research" },
   { label: "Fees", value: "Underwrite pro-bono programs" },
 ];

@@ -49,7 +49,7 @@ export default function Home() {
           {/* Meta row */}
           <div className="rise delay-4 mt-16 md:mt-28 grid grid-cols-12 gap-6 md:gap-8 items-end">
             <div className="col-span-12 md:col-span-5 font-mono text-[11px] uppercase tracking-[0.22em] text-ink-mute leading-relaxed">
-              <span className="text-amber">A non-profit advisory</span>
+              <span className="text-amber">A food system advisory</span>
               <br />
               for nations, institutions, and industries
             </div>
