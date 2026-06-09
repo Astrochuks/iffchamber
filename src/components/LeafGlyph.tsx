@@ -1,5 +1,13 @@
 type Props = { className?: string };
 
+/**
+ * The IFF CHAMBER leaf mark. Two-tone: stem and lower leaf in moss
+ * (rooted/established), upper leaf in moss-bright (emerging/future).
+ *
+ * Colors are baked into the component via Tailwind classes on individual
+ * paths so the leaf reads as the brand mark wherever it appears — small
+ * eyebrow accents, large standalone uses, or the logo lockup.
+ */
 export function LeafGlyph({ className = "" }: Props) {
   return (
     <svg
@@ -14,20 +22,25 @@ export function LeafGlyph({ className = "" }: Props) {
         y1="22"
         x2="16"
         y2="92"
+        className="text-moss"
         stroke="currentColor"
-        strokeWidth="0.9"
+        strokeWidth="2.5"
         strokeLinecap="round"
       />
       <path
-        d="M16 50 C 5 47, 3 33, 13 28 C 17 33, 19 44, 16 50 Z"
+        d="M16 50 C 1 47, 0 32, 12 24 C 13 32, 16 42, 16 50 Z"
+        className="text-moss"
         stroke="currentColor"
-        strokeWidth="0.9"
+        strokeWidth="1.9"
+        strokeLinejoin="round"
         fill="none"
       />
       <path
-        d="M16 38 C 27 35, 29 21, 19 16 C 15 21, 13 32, 16 38 Z"
+        d="M16 38 C 31 35, 32 22, 20 14 C 18 22, 16 30, 16 38 Z"
+        className="text-moss-bright"
         stroke="currentColor"
-        strokeWidth="0.9"
+        strokeWidth="1.9"
+        strokeLinejoin="round"
         fill="none"
       />
     </svg>

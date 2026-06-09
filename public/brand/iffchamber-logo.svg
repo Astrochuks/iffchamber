@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 110" fill="none" role="img" aria-label="IFF CHAMBER — Interconnected Food Futures Chamber">
+  <title>IFF CHAMBER — Interconnected Food Futures Chamber</title>
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=JetBrains+Mono:wght@500&display=swap');
+      .wordmark { font-family: 'Fraunces', 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 48px; font-variation-settings: 'opsz' 144; }
+      .subtitle { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Courier New', monospace; font-weight: 500; font-size: 16px; letter-spacing: 0.03em; text-transform: uppercase; fill: #6e6e63; }
+    ]]></style>
+  </defs>
+
+  <!-- Leaf -->
+  <g transform="translate(10, -10) scale(1.5)">
+    <line x1="16" y1="22" x2="16" y2="92" stroke="#2d3f2a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M16 50 C 1 47, 0 32, 12 24 C 13 32, 16 42, 16 50 Z" stroke="#2d3f2a" stroke-width="1.9" stroke-linejoin="round" fill="none"/>
+    <path d="M16 38 C 31 35, 32 22, 20 14 C 18 22, 16 30, 16 38 Z" stroke="#3f6e2d" stroke-width="1.9" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Wordmark IFF·CHAMBER stretched to match subtitle width -->
+  <text class="wordmark" x="90" y="62" textLength="620" lengthAdjust="spacingAndGlyphs">
+    <tspan fill="#1a1a17">I</tspan>
+    <tspan fill="#1a1a17">F</tspan>
+    <tspan fill="#1a1a17">F</tspan>
+    <tspan fill="#b8541f">·</tspan>
+    <tspan fill="#3f6e2d">C</tspan>
+    <tspan fill="#3f6e2d">H</tspan>
+    <tspan fill="#3f6e2d">A</tspan>
+    <tspan fill="#3f6e2d">M</tspan>
+    <tspan fill="#3f6e2d">B</tspan>
+    <tspan fill="#3f6e2d">E</tspan>
+    <tspan fill="#3f6e2d">R</tspan>
+  </text>
+
+  <!-- Subtitle, same width as wordmark -->
+  <text class="subtitle" x="90" y="90" textLength="620" lengthAdjust="spacingAndGlyphs">INTERCONNECTED FOOD FUTURES CHAMBER</text>
+</svg>

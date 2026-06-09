@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
-import { Wordmark } from "./Wordmark";
+import { Logo } from "./Logo";
 
 const NAV = [
   { label: "Home", href: "/" },
@@ -46,7 +46,7 @@ export function SiteHeader() {
       <header className="sticky top-0 z-50 bg-bone/85 backdrop-blur-md">
         <div className="mx-auto flex max-w-[1480px] items-center justify-between px-6 py-5 md:px-12 md:py-7 relative z-[70]">
           <Link href="/" onClick={close} className="block" aria-label="IFF CHAMBER home">
-            <Wordmark size="md" />
+            <Logo size="md" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-9">

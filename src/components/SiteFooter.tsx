@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { Wordmark } from "./Wordmark";
-import { LeafGlyph } from "./LeafGlyph";
+import { Logo } from "./Logo";
 
 const FOOTER_NAV = [
   {
@@ -37,10 +36,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-[1480px] px-6 md:px-12 py-16 md:py-24">
         <div className="grid grid-cols-12 gap-8 md:gap-12">
           <div className="col-span-12 md:col-span-5 flex flex-col">
-            <div className="flex items-start gap-4">
-              <LeafGlyph className="w-4 h-auto text-moss mt-1" />
-              <Wordmark size="lg" withSubtitle />
-            </div>
+            <Logo size="md" />
             <p className="mt-8 font-display text-xl md:text-[1.5rem] leading-[1.3] text-ink-soft max-w-md text-pretty">
               A food system advisory for nations, institutions, and industries, committed to advancing human capital through food security and sustainability.
             </p>

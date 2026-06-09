@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-3 11 38 40" fill="none" role="img" aria-label="IFF CHAMBER">
+  <line x1="16" y1="38" x2="16" y2="50" stroke="#2d3f2a" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M16 50 C 1 47, 0 32, 12 24 C 13 32, 16 42, 16 50 Z" stroke="#2d3f2a" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+  <path d="M16 38 C 31 35, 32 22, 20 14 C 18 22, 16 30, 16 38 Z" stroke="#3f6e2d" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+</svg>

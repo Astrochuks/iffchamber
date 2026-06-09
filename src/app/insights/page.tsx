@@ -65,9 +65,62 @@ export default function InsightsPage() {
         </div>
       </section>
 
+      {/* FEATURED — most recent publication, lead position */}
+      {FEATURED && (
+        <section className="border-t border-ink/15 px-6 md:px-12 py-20 md:py-28 bg-bone-soft">
+          <div className="mx-auto max-w-[1480px] grid grid-cols-12 gap-8 md:gap-12 items-start">
+            <div className="col-span-12 md:col-span-3">
+              <div className="font-mono text-[11px] uppercase tracking-[0.24em] text-ink-mute">
+                <span className="text-amber">01</span>
+                <span className="mx-2">—</span>
+                Latest
+              </div>
+              <div className="mt-3 font-mono text-[10px] uppercase tracking-[0.22em] text-ink-mute">
+                {FEATURED.category}
+                <span className="text-amber mx-2">·</span>
+                {FEATURED.date}
+              </div>
+            </div>
+            <article className="col-span-12 md:col-span-9 border-t border-ink/30 pt-6 group">
+              <h2
+                className="font-display font-medium text-ink leading-[1.04] tracking-[-0.02em] text-balance"
+                style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)" }}
+              >
+                <Link href={FEATURED.href} className="link-rule">
+                  {FEATURED.title}
+                </Link>
+              </h2>
+              <p
+                className="mt-8 font-display leading-[1.3] text-ink-soft text-pretty max-w-3xl"
+                style={{ fontSize: "clamp(1.1rem, 1.5vw, 1.3rem)" }}
+              >
+                {FEATURED.dek}
+              </p>
+              <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-[10px] uppercase tracking-[0.22em] text-ink-mute">
+                <span>{FEATURED.author}</span>
+                <span className="text-amber">·</span>
+                <span>{FEATURED.readTime}</span>
+                <Link
+                  href={FEATURED.href}
+                  className="text-moss hover:text-amber transition-colors inline-flex items-center gap-2"
+                >
+                  Read essay
+                  <span aria-hidden>→</span>
+                </Link>
+              </div>
+            </article>
+          </div>
+        </section>
+      )}
+
       {/* INSIGHTS GRID */}
       <section className="border-t border-ink/15 px-6 md:px-12 py-20 md:py-28 bg-bone-soft">
         <div className="mx-auto max-w-[1480px]">
+          <div className="mb-12 font-mono text-[11px] uppercase tracking-[0.24em] text-ink-mute">
+            <span className="text-amber">02</span>
+            <span className="mx-2">—</span>
+            Forthcoming
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 md:gap-x-10 gap-y-14">
             {INSIGHTS.map((i) => (
               <article key={i.title} className="border-t border-ink/30 pt-6 group">
@@ -147,6 +200,17 @@ export default function InsightsPage() {
     </>
   );
 }
+
+const FEATURED = {
+  category: "Essay",
+  date: "May 2026",
+  title:
+    "Sustainability incentives in the age of AI: aligning innovation with long-term responsibility.",
+  dek: "AI will not solve sustainability on its own. It accelerates whatever the surrounding incentives already reward. An essay on a design problem that has just become urgent.",
+  author: "Founding editorial",
+  readTime: "8 min read",
+  href: "/insights/sustainability-incentives-ai",
+};
 
 const CATEGORIES = ["All", "Field Note", "Brief", "Position", "Essay", "Research"];
 
